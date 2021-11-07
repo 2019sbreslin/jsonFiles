@@ -11,16 +11,5 @@
 	"lat":"41.881832",
 	"lng":"-87.623177",
 	"favoriteHobby":"Getting away with skipping school",
-	"class":"cpsc-24700-001",
-	"room":"AS-104-A",
-	"startTime":"3pm CT",
-	"seatNumber":"",
-	"inPerson":[
-	],
-	"virtual":[
-		"Monday",
-		"Wednesday",
-		"Friday"
-	],
-	"favoriteSport": "Water Skiing"
+	"favoriteSport": "Baseball"
 }

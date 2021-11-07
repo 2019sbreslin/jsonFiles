@@ -11,16 +11,5 @@
     "lat":"40.792240",
     "lng":"-73.138260",
     "favoriteHobby":"telling jokes",
-    "class":"CPSC-24700-001",
-    "room":"AS-124-A",
-    "startTime":"3pm CT",
-    "seatNumber":"",
-    "inPerson": [
-    ],
-    "virtual":[
-        "Monday",
-        "Wednesday",
-        "Friday"
-    ],
-    "favoriteSport":"Baseball"
+    "favoriteSport":"eSports"
 }
