@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'jsonFiles'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CE0A1DB5CFBD47C6B5DA136936BE131A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AEF49AF6DF52406289A61508DB804C83 }}
           package: .
