@@ -3,11 +3,10 @@ var contactArray = [];
 var loadingContact = 0;
 
 function initApplication() {
-    console.log('Mustang Lite - Starting!'); 
+    console.log('Mustang Starting!'); 
 }
 
 function loadIndex() {
-    // Load the Mustang index file.
     var indexRequest = new XMLHttpRequest();
     indexRequest.open('GET', 'https://mustang-index.azurewebsites.net/index.json');
     indexRequest.onload = function() {
@@ -24,7 +23,6 @@ function loadIndex() {
 }
 
 function loadContacts() {
-    // Clear the current contactArray.
     contactArray.length = 0;
     loadingContact = 0;
 
@@ -48,10 +46,6 @@ async function nextContact(URL) {
     }
 }
 
-
-    // Note that W3C documentation and my experimentation indicate that each XMLHttpRequest callback function must be a 
-    // unique instance of a function. A better implmentation would have had an array of callback functions and a multithreaded
-    // inplementation instead of a recursive synchronous call to load.
     if (contactURLArray.length > loadingContact) {
         loadNextContact(contactURLArray[loadingContact]);
     }
@@ -80,6 +74,7 @@ function loadNextContact(URL) {
 
 function logContacts() {
     console.log(contactArray);
+    console.log(nextContact);
 }
 
 
